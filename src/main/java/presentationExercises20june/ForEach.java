@@ -1,4 +1,4 @@
-package presentationExercises;
+package presentationExercises20june;
 
 public class ForEach {
 
