@@ -1,14 +1,19 @@
 package presentationExercises20june;
 
 public class HomeworkSDA3 {
-    public static void main(String[] args) {
-        int a = 6;
-        int b = 12;
+
+    public static int addRange(int a, int b) {
         int result = 0;
-        for (int i = a; i <=b; i++) {
-            result +=i;
+        for (int i = a; i <= b; i++) {
+            result += i;
 
         }
-        System.out.println(result);
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(addRange(6,22));
     }
 }
+
