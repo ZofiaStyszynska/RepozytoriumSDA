@@ -13,6 +13,7 @@ public class Kolekcje1mz_ex6 {
         int howMany = scanner.nextInt();
         int randomNum = new Random().nextInt(100)+1;
 
+
         for (int i = 0; i <howMany ; i++) {
             randomList.add(randomNum);
         }
@@ -24,7 +25,17 @@ public class Kolekcje1mz_ex6 {
         Queue<Integer> randomList = new PriorityQueue<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ile liczb chcesz wylosować?");
-        getNumFromUser(randomList);
+        int howMany = scanner.nextInt();
+
+
+
+        for (int i = 0; i <howMany ; i++) {
+            int randomNum = new Random().nextInt(100)+1;
+            randomList.add(randomNum);
+        }
+
+        printList(randomList);
+        //getNumFromUser(randomList);
         //printList(getNumFromUser(randomList));
     }
 }
