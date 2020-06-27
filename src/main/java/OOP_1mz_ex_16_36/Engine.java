@@ -1,4 +1,4 @@
-package OOP;
+package OOP_1mz_ex_16_36;
 
 public class Engine {
     private double capacity;
