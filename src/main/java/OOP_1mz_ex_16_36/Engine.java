@@ -36,4 +36,13 @@ public class Engine {
     public void setFuelConsumption(double fuelConsumption) {
         this.fuelConsumption = fuelConsumption;
     }
+
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "capacity=" + capacity +
+                ", horsePower=" + horsePower +
+                ", fuelConsumption=" + fuelConsumption +
+                '}';
+    }
 }
