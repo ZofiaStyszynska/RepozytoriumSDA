@@ -19,11 +19,17 @@ public class Kolekcje1mz_ex3 {
 
 
     }
+
     public static void divideSecPenult(List<Double> list) {
+
         double secondNumber = list.get(1);
         double penultNumber = list.get(list.size() - 2);
         double product = secondNumber / penultNumber;
-        System.out.println(secondNumber + " / " + penultNumber + " = " + product);
+        if (list.size() >=2){
+        System.out.println(secondNumber + " / " + penultNumber + " = " + product);}
+        else {
+            System.out.println("Lista jest za krótka.");
+        }
 
 
     }

@@ -18,11 +18,18 @@ public class Kolekcje1mz_ex5 {
 
         return nameList;
     }
-
     public static void printList(List<String> nameList) {
-        for (String name : nameList) {
-            System.out.print(name + ", ");
-        }
+        int i = 0;
+        while (i<nameList.size()){
+            System.out.print(nameList.get(i++) + ", ");
+
+    }
+
+
+//    public static void printList(List<String> nameList) {
+//        for (String name : nameList) {
+//            System.out.print(name + ", ");
+//        }
     }
 
     public static void main(String[] args) {

@@ -15,6 +15,6 @@ public class Kolekcje1mz_ex2 {
         numbers.add(78);
         System.out.println("Długość tej listy to: " +numbers.size());
         System.out.println("Pierwszy el. tej listy to: " +numbers.get(0));
-        System.out.println("Ostatni el. tej listy to: "+numbers.get(2));
+        System.out.println("Ostatni el. tej listy to: "+numbers.get(numbers.size()-1));
     }
 }

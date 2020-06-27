@@ -12,12 +12,12 @@ public class Kolekcje1mz_ex4 {
         namesList.add("Jan");
         namesList.add("Maria Magdalena");
 
-        for (String name:namesList) {
+        for (String name : namesList) {
             System.out.print(name + ", ");
         }
         System.out.println();
-        for (int i = namesList.size(); i>0 ; i--) {
-            System.out.print(namesList.get(i-1) + ", ");
+        for (int i = namesList.size(); i > 0; i--) {
+            System.out.print(namesList.get(i - 1) + ", ");
 
         }
     }
